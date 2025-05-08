@@ -12,6 +12,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+:root {
+  --primary-color: #004B87;
+  --secondary-color: #E0457B;
+  --tertiary-color: #84CCF8;
+  --color: #64CCC9;
+  --text-color: #D0D0CE;
+  --background-color: #000000;
+}
 
 a {
   font-weight: 500;

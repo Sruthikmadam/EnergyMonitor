@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+ 
+/* .login {
+  background-image: url('../assets/environment.webp');
+  
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+} */
+/* .login {
+  position: relative;
+  z-index: 1;
+}
+
+.login::before {
+  content: "";
+  background-image: url('../assets/pinkblue.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5; /* adjust for desired transparency */
+  /* position: absolute; */
+ 
+  /* width: 100%;
+  height: 100%; */
+  /* width: 100vw;
+height: 100vh;
+top: 0;
+left: 0;
+  z-index: -1;
+} */ 
+
+
+
+
+.login {
+  z-index: 1;
+  background-image: url('../assets/pinkblue.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: creates parallax effect */
+  /* backdrop-filter: blur(9px); */
+
+  width: 100vw;
+height: 100vh;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+} 
+
+.login-container {
+    min-height: screen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* background-color: ; */
+     backdrop-filter: blur;
+     width: 100%;
+  max-width: 400px;
+
+ 
+     
+  }
+  
+
+  .login-form {
+ 
+    padding: 3rem;
+    border-radius: 20px;
+    /* box-shadow: 0 4px 6px rgba(133, 136, 136, 0.1); */
+    box-shadow: 0 4px 6px var(--primary-color);
+    /* background-color: var(--background-color); */
+    max-width: 320px;
+   /* max-width: 90%; */
+   border: 3px solid rgba(255, 255, 255, 0.3);
+  }
+  
+ 
+  .login-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #f6f7f8; 
+    /* color:var(--secondary-color);  */
+  }
+  
+ 
+  .login-input {
+    width: 100%;
+    background: transparent;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--secondary-color); 
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #e0dbdb;
+    
+    transition: border 0.3s ease-in-out;
+  }
+  
+  .login-input:focus {
+    border-color: #3182ce; 
+    
+    outline: none;
+  }
+  
+  
+  
+  .login-button {
+    width: 90%;
+    /* padding: 0.75rem; */
+   text-align: center;
+    /* background: var(--secodary-color); */
+    background: #cb2828;
+    
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+    display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  }
+  
+  .login-button:hover {
+    /* background-color: var(--tertiary-color);  */
+    background-color: forestgreen;
+
+    
+  }
+  
+  .login-button:focus {
+    outline: none;
+  }
+  input::placeholder {
+    color: rgba(255, 248, 248, 0.956);
+  }
+  @media  (max-width: 320px) {
+    .login{
+      width: 100%;
+      height: 100vh;
+    height: max-content;
+    background-image: url(/src/assets/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: initial;
+}
+    }
+    
+   
+
+    
+  
+  

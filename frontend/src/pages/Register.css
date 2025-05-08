@@ -1,0 +1,109 @@
+body {
+    /* background-color: #f0f4f8; */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* .register-form {
+    width: 100%;
+    max-width: 100vh;
+    background-color: #d743b2;
+    padding: 10px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  } */
+  .register-form {
+    background-image: url('../assets/pinkblue.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; Optional: creates parallax effect */
+  
+    width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  margin-top: auto;
+  
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+  }
+  .register-box{
+    /* width: 100%; */
+    /* max-width: 100vh; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .register-form h2,
+  .register-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:#0077cc
+  }
+  
+  .register-form input {
+    width: 50%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    background-color: grey;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .device-section {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #fafafa transparent;
+  }
+  
+  .add-btn,.submit-btn  {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #0077cc ;
+    border: 1px dashed #ccc;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+   text-align: center;
+  }
+  
+  .add-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* .submit-btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    background-color: #0077cc;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  } */
+  
+  .submit-btn:hover {
+    background-color: #005fa3;
+  }
+  .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+  

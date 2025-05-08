@@ -1,0 +1,70 @@
+/* Container */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url(../assets/background.jpg);
+    /* background-color: #4a5568; */
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 16rem;
+    background-color: #a0afc9 transparent; /* dark gray */
+    color: white;
+    padding: 1rem;
+  }
+  
+  .welcome-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .device-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 1;
+    padding: 1.5rem;
+    background-color: #f7fafc tranparent;/* light gray */
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  /* Grid */
+  .systems-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  /* Cards */
+  .system-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .system-title {
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+  
+  .system-id {
+    color: #4a5568;
+  }
+  

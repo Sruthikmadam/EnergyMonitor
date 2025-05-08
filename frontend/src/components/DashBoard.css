@@ -1,0 +1,100 @@
+/* Ensure the body takes the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container for the entire page */
+  .container {
+    padding: 24px;
+    background-color: #8aa2d1;
+    min-height: 100vh;
+    width: 97vw;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .logout-btn {
+    background-color: #f56565; /* Red */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .logout-btn:hover {
+    background-color: #e53e3e; /* Darker Red */
+  }
+  
+  /* Grid for the stat cards
+  .stat-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 200px;
+    margin-left: auto;
+    margin-right: 20px;
+  } */
+  .stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Automatically adjust based on screen size */
+    gap: 24px; /* Adjust the gap between items */
+    margin-left: auto;
+    margin-right: auto; /* Center the grid */
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  
+  /* Stat card styling */
+  .stat-card {
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .card-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3182ce; /* Blue */
+  }
+  
+  /* Responsive Design */
+ 
+
+  @media  (max-width: 290px) {
+    .container{
+      width: auto;
+    /* height: max-content;
+    background-color: #8aa2d1;
+    background-repeat: no-repeat;
+    background-attachment: initial; */
+    margin-right:50px;
+}
+    }
+    @media (min-width: 768px) {
+        .stat-cards {
+          grid-template-columns: repeat(3, 1fr); /* 3 columns on larger screens */
+        }
+      }
